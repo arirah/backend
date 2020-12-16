@@ -1,0 +1,321 @@
+@import "icofont/icofont/icofont.min.css";
+/*@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&display=swap');
+
+body {
+    /*font-family: 'Raleway', sans-serif !important;*/
+    font-family: 'Barlow', sans-serif!important;
+    background: #f1f1f1 !important;
+}
+
+.main .card, .form-control, .btn, .dropdown-menu {
+    /*border-radius: 0px !important;*/
+}
+
+/*.input-group-lg > .input-group-append > .btn {*/
+/*    border-radius: 0 !important;*/
+
+/*}*/
+
+.card-img-left {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.main h1, h2, h3, h4, h5 {
+    color: rgb(59, 73, 128) !important;
+}
+
+h1 i, h2 i, h3 i, h4 i, h5 i {
+    color: #17a2b8 !important;
+}
+
+.main .card:hover {
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}
+
+.main a {
+    color: rgb(59, 73, 128) !important;
+    text-decoration: none !important;
+}
+
+.main a:hover {
+    text-decoration: none;
+    color: #17a2b8 !important;
+}
+
+
+.navbar-brand {
+    font-family: 'Galada', sans-serif !important;
+    font-size: 40px !important;
+}
+
+.main .card-text {
+    font-size: 12px !important;
+}
+
+.bg-info {
+    background-color:#1BCDCC !important;
+}
+
+.main .card, .form-control {
+    /*border: none !important;*/
+}
+
+footer h5 {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar .nav-item a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.item-box h6 {
+    font-size: 13px !important;
+}
+
+.item-box i {
+    color: #1BCDCC !important;
+}
+
+.medicine p {
+    margin-bottom: 0 !important;
+}
+
+.medicine {
+    border: none !important;
+    border-radius: 0 !important;
+
+}
+
+.medicine p b {
+    color:#1BCDCC !important;
+}
+
+.brands .card:hover {
+    /*box-shadow: 5px 5px 5px grey;*/
+    cursor: pointer;
+    /*border-bottom: 2px solid #ff9900 !important;*/
+    /*margin-top: -2px !important;*/
+}
+
+.page-container {
+    min-height: 500px !important;
+}
+
+.bg-info, .btn-info {
+    background-color: #1BCDCC !important;
+}
+
+.btn-info {
+    color: #fff !important;
+    border-color: #1BCDCC !important;
+}
+
+h4, h5, h3 i {
+    color: #1BCDCC !important;
+}
+
+
+.list-group-item.active {
+    background-color: #1BCDCC !important;
+    border-color: #1BCDCC !important;
+}
+
+.card i {
+    color: #1BCDCC !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #1BCDCC !important;
+    border-color: #1BCDCC !important;
+}
+
+.list-group a i {
+    color: #1BCDCC !important;
+    font-size: 18px !important;
+}
+
+.breadcrumb {
+    background-color: #1BCDCC !important;
+}
+
+.breadcrumb li a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 a {
+    color: #1BCDCC !important;
+}
+
+.card h2 a {
+    color: #1BCDCC !important;
+}
+
+.card small b {
+    color: #1BCDCC !important;
+}
+
+#product .card:hover {
+    /*box-shadow: 2px 2px 2px grey;*/
+    cursor: pointer;
+    background: #efefef !important;;
+}
+
+#accordion h5 button {
+    color: #1BCDCC !important;
+    text-decoration: none;
+
+}
+
+.card a {
+    text-decoration: none !important;
+}
+
+
+.right-content {
+    min-height: 500px !important;
+}
+
+table#transaction tr td b {
+    color: #1BCDCC !important;
+}
+
+.customPagination > li > a {
+    color: #fff;
+}
+
+.customPagination > li.active > a,
+.customPagination > li > a:hover {
+    color: white;
+    background-color: #1BCDCC !important;
+}
+
+.customPagination .page-item.active .page-link {
+    color: white;
+    background-color: #1BCDCC !important;
+    border-color: #1BCDCC !important;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+#accordion .card-header {
+    background-color: #1BCDCC !important;
+    border-bottom: 1px solid #1BCDCC !important;
+    color: #fff !important;
+}
+
+#accordion h5 button {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+nav li a {
+    font-weight: bold !important;
+}
+
+nav ul a {
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.router-link-exact-active {
+    color: #844B85 !important;
+    background: #1BCDCC !important;;
+}
+
+.list-group .router-link-exact-active {
+    color: #FFF !important;
+    background: #1BCDCC !important;;
+}
+
+.list-group a.router-link-exact-active i {
+    color: #FFF !important;
+}
+
+.highligh-text {
+    color: #1BCDCC !important;
+    font-weight: bolder;
+}
+
+.btn-outline-info {
+    border: 1px solid #1BCDCC !important;
+    color: #1BCDCC !important;;
+}
+
+.btn-outline-info:hover {
+    background: #1BCDCC !important;
+}
+
+.btn-outline-info i:hover {
+    color: #fff !important;
+}
+
+.ribbon i {
+    color: #fff !important;
+}
+
+.searchbox .btn {
+    border-top-left-radius: 0px !important;;
+    border-bottom-left-radius: 0px !important;;
+}
+
+.searchbox .input {
+    border-top-right-radius: 0px !important;
+    -webkit-border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0px !important;
+    -webkit-border-bottom-right-radius: 0 !important;
+
+}
+
+.no-effect:hover {
+    border-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.line-through {
+    text-decoration-line: line-through !important;
+}
+
+.header1 {
+    background: url("/images/home-header.jpg");
+    min-height: 280px;
+    background-position-y: -160px;
+}
+
+.header2 {
+    background: url("/images/home-header1.jpg");
+    min-height: 280px;
+    background-position-y: -358px;
+    background-size: cover;
+}
+
+
+.header1 .card {
+    background: #ffffffe0 !important;
+}
+
+.header2 .card {
+    background: #ffffffe0 !important;
+}
+
+
+.list-group-item .router-link-exact-active .router-link-active {
+    background:#1BCDCC !important;
+}
+
+.dropdown-menu {
+    background: #1BCDCC !important;
+}
+
+.btn-lg {
+    font-size: 17.2px !important;
+}
